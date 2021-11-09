@@ -1,0 +1,20 @@
+:root {
+    --bg-botao: #0b4e34;
+    --border-botao: solid 3px rgb(2, 10, 0);
+}
+
+.botao {
+    font-size: 1.4rem;
+    background-color: var(--bg-botao);
+    border: none;
+    border-right: var(--border-botao);
+    border-bottom: var(--border-botao);
+    outline: none;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+}
+.botao:active {
+    background-color: rgb(2, 171, 255) ;
+    color: #fff;
+    border-color: rgba(0, 101, 243, 0.39);
+}

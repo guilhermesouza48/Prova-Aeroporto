@@ -1,0 +1,12 @@
+input {
+    border: 2px solid rgb(149, 149, 149);
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    font-size: x-large;
+    margin: 3px;
+}
+
+label {
+    color: #0b4e34;
+}

@@ -1,0 +1,31 @@
+.Cartao {
+    overflow: hidden;
+    border: 5px solid;
+    margin: 35px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+}
+
+.Cartao .Conteudo, h2 {
+    background-color: rgb(211, 211, 211);
+    color: rgb(22, 21, 21);
+    padding: 2px;
+    flex-grow: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Cartao .Titulo {
+    color: black;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size:x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
